@@ -50,7 +50,7 @@ class ProductDetailPage extends StatelessWidget {
                 Text('Price: $price', style: TextStyle(fontSize: 16)),
                 SizedBox(height: 16),
                 Row(
-                  children: List.generate(5, (index) {
+                  children: List.generate(3, (index) {
                     return Icon(Icons.star, size: 24, color: Colors.amber);
                   }),
                 ),
