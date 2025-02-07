@@ -111,7 +111,7 @@ class ProductListPage extends StatelessWidget {
                           Text('Price: ${product['price']}'),
                           SizedBox(height: 8),
                           Row(
-                            children: List.generate(5, (index) {
+                            children: List.generate(3, (index) {
                               return Icon(Icons.star,
                                   size: 16, color: Colors.amber);
                             }),
